@@ -1,13 +1,16 @@
-# Cassie Gallogly | Engineering Portfolio
+# Cassie Gallogly Engineering Portfolio
 
-Pink, responsive personal portfolio hosted on GitHub Pages.
+Static multi-page GitHub Pages portfolio. No build tools needed.
 
 ## Publish
-Upload `index.html`, `Cassie_Gallogly_Resume.pdf`, and the entire `images` folder to the root of your `cassiegallogly.github.io` repository. In Settings > Pages, use `Deploy from a branch`, `main`, `/(root)`.
+Upload **everything inside this folder**, including the HTML files, `styles.css`, `assets/` folder, and `Cassie_Gallogly_Resume.pdf` to the top level of your `cassiegallogly.github.io` repository. Do not upload the ZIP without extracting it. Keep GitHub Pages set to main / root.
 
 ## Edit
-Edit text in `index.html`. Change pink colors in the `:root` CSS block at the top. Replace images within `images/`, keeping the same filenames, or update the paths in `index.html`.
+- Edit the relevant `.html` page to change text.
+- Edit `styles.css` to change colors and layout.
+- Images and video live in `assets/`.
+- To update the résumé, replace `Cassie_Gallogly_Resume.pdf` with a newer file under the same name.
 
-The tactile sensor and smartwatch cards intentionally use illustrated placeholders until your own project images are supplied.
+Images use `object-fit: contain` to avoid cutting off projects and people.
 
-All project photo and contact links are relative or direct and require no build tools.
+The user-provided video is the sensor glove gesture game. The wearable sweat sensor is shown using a user-supplied system image.
