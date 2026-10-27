@@ -14,3 +14,9 @@ Upload **everything inside this folder**, including the HTML files, `styles.css`
 Images use `object-fit: contain` to avoid cutting off projects and people.
 
 The user-provided video is the sensor glove gesture game. The wearable sweat sensor is shown using a user-supplied system image.
+
+## Version 3 changes
+- Simplified pages and removed image captions.
+- New gesture-control photograph, sensor gallery, larger About portrait, coaching photos, and ProMotion poster.
+- The Google Docs URL provided for both tactile research and a ProMotion presentation is identical. It was not verified as the final presentation, so it is not mislabelled on the public website. Add the actual presentation URL after confirming it.
+- For the ProMotion poster, upload `ProMotion_Research_Poster.pdf` alongside all HTML files.
