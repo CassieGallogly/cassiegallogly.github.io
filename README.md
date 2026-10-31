@@ -1,22 +1,19 @@
-# Cassie Gallogly Engineering Portfolio
+# Cassie Gallogly — Updated GitHub Pages files
 
-Static multi-page GitHub Pages portfolio. No build tools needed.
+## What changed
+- Updated homepage/About introduction to emphasize teamwork, bringing projects to life, and real-world problems.
+- Added three uploaded skating/coaching photos to About, keeping the caption-free gallery and pink design.
+- Included the newly uploaded `Cassie_Gallogly_Resume.pdf` (unchanged). All existing résumé links already point to that exact filename.
+- Included the ProMotion poster using the filename expected by `promotion.html`.
 
-## Publish
-Upload **everything inside this folder**, including the HTML files, `styles.css`, `assets/` folder, and `Cassie_Gallogly_Resume.pdf` to the top level of your `cassiegallogly.github.io` repository. Do not upload the ZIP without extracting it. Keep GitHub Pages set to main / root.
+## IMPORTANT: Preserve existing project images and video
+The original `assets/` directory was **not among the uploaded files**. This update contains only the three *new* photos under `assets/`, and the HTML still refers to your existing images/video (such as `assets/portrait.webp`, `assets/coast.webp`, `assets/coach.webp`, `assets/gesture-hand.webp`, etc.). **Do not delete or replace your current `assets/` folder.** Upload these files to the existing repository and merge the three new images into its `assets/` folder.
 
-## Edit
-- Edit the relevant `.html` page to change text.
-- Edit `styles.css` to change colors and layout.
-- Images and video live in `assets/`.
-- To update the résumé, replace `Cassie_Gallogly_Resume.pdf` with a newer file under the same name.
+## Publish on GitHub
+1. Extract ZIP locally.
+2. Open your `cassiegallogly.github.io` repository on GitHub.
+3. Upload/replace the HTML, CSS, and PDF files at the repository root.
+4. Upload the three new `.webp` files into your existing `assets/` folder, preserving all earlier assets.
+5. Commit changes and refresh the published site after GitHub Pages updates.
 
-Images use `object-fit: contain` to avoid cutting off projects and people.
-
-The user-provided video is the sensor glove gesture game. The wearable sweat sensor is shown using a user-supplied system image.
-
-## Version 3 changes
-- Simplified pages and removed image captions.
-- New gesture-control photograph, sensor gallery, larger About portrait, coaching photos, and ProMotion poster.
-- The Google Docs URL provided for both tactile research and a ProMotion presentation is identical. It was not verified as the final presentation, so it is not mislabelled on the public website. Add the actual presentation URL after confirming it.
-- For the ProMotion poster, upload `ProMotion_Research_Poster.pdf` alongside all HTML files.
+No build tools are required. Keep GitHub Pages deployed from your main branch/root.

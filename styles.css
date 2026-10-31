@@ -15,3 +15,10 @@
 .contactlink strong{font-size:clamp(18px,2.1vw,24px)}
 @media(max-width:800px){.about-portrait{height:470px}.gallery img{height:320px}}
 @media(max-width:560px){.about-portrait{height:400px}.gallery img{height:auto;max-height:420px}.gallery figure:has(img[src*=promotion-poster]){grid-column:auto}}
+
+/* Coaching gallery: more photos while keeping the original clean, caption-free design. */
+.coaching-gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.coaching-gallery figure{margin:0}
+.coaching-gallery img{height:320px;object-fit:contain;display:block}
+@media(max-width:850px){.coaching-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.coaching-gallery{grid-template-columns:1fr}.coaching-gallery img{height:auto;max-height:460px}}
